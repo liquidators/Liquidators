@@ -1,2 +1,0 @@
-C:\Users\ahmad\Desktop\Liquidators-master\Intermediate\Build\Win64\UE4Editor\Development\Liquidators\Definitions.Liquidators.h
-c:\users\ahmad\desktop\liquidators-master\source\liquidators\Liquidators.h

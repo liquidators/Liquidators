@@ -1,7 +1,0 @@
-C:\Users\ahmad\Desktop\Liquidators-master\Intermediate\Build\Win64\UE4Editor\Development\Liquidators\Definitions.Liquidators.h
-c:\users\ahmad\desktop\liquidators-master\source\liquidators\LiquidatorsGameModeBase.h
-C:\Users\ahmad\Desktop\UE_4.23\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-C:\Users\ahmad\Desktop\UE_4.23\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-C:\Users\ahmad\Desktop\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-C:\Users\ahmad\Desktop\UE_4.23\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-C:\Users\ahmad\Desktop\Liquidators-master\Intermediate\Build\Win64\UE4Editor\Inc\Liquidators\LiquidatorsGameModeBase.generated.h
