@@ -5,7 +5,7 @@
 	"Description": "",
 	"Modules": [
 		{
-			"Name": "Liquidators",
+			"Name": "Liquidatortest",
 			"Type": "Runtime",
 			"LoadingPhase": "Default"
 		}

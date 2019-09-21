@@ -7,7 +7,7 @@
 /**
  * 
  */
-class LIQUIDATORS_API Liquidators
+class LIQUIDATORTEST_API Liquidators
 {
 public:
 	Liquidators();

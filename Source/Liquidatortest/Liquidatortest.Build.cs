@@ -2,9 +2,9 @@
 
 using UnrealBuildTool;
 
-public class Liquidators : ModuleRules
+public class Liquidatortest : ModuleRules
 {
-	public Liquidators(ReadOnlyTargetRules Target) : base(Target)
+	public Liquidatortest(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
 	
