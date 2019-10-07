@@ -1,7 +1,8 @@
 
-
-
 #include "LCharacter.h"
+#include "Camera/CameraComponent.h"
+#include "GameFramework/SpringArmComponent.h"
+
 
 // Sets default values
 ALCharacter::ALCharacter()
