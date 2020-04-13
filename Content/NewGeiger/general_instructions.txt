@@ -1,0 +1,57 @@
+***Hi everyone!
+I don't want to make any asusmptions on anyone's knowledge in UE4 but these are the things that I learned myself while creating
+these assets and textures. If there is anything that this documentation did not answer clearly, please let me know.
+
+Thanks!
+-Nessa
+
+UE4 GEIGER COUNTER IMPORT NOTES
+
+-GEIGER GEO-
+-When importing geigerCounter.fbx, the Normal Import Method MUST be set to "Import Normals and Tangents", otherwise UE4 will pop up errors regarding close to 
+zero binormals
+-geigerCounter.fbx contains 13 meshes (which are the following)
+	-geigerCounter_backgroundpaper
+	-geigerCounter_dial
+	-geigerCounter_glassCover
+	-geigerCounter_greenLight
+	-geigerCounter_laserButton
+	-geigerCounter_ledScreen
+	-geigerCounter_mainBody
+	-geigerCounter_metalCasing
+	-geigerCounter_meterLight1
+	-geigerCounter_meterLight2
+	-geigerCounter_meterLight3
+	-geigerCounter_meterLight4
+	-geigerCounter_meterNeedle
+
+-TEXTURE FILES-
+-each mesh has their own set of textures including BaseColor, RMA, and Normal except for any assets made of glass:
+
+	-geigerCounter_glassCover only has 1 texture file, glassCover1_OcclusionRoughnessMetallic, which must be attached to the glassCover material
+	-all meterLights and the greenLight only need the material attached, they do not have any texture files
+	-the geigerCounter_meterNeedle is the only asset with an emissive component
+
+-General instructions for attaching texture files:
+
+	-OcclusionRoughnessMetallic maps must have sRGB UNCHECKED in the texture's Details
+	-Sampler Type must be set to "Linear Color" 
+	-In the OcclusionRoughnessMetallic maps for each texture, the RGB channels must be attached to the material in the following way:
+		-Red (R) <--------> Ambient Occlusion
+		-Green (G) <--------> Roughness 
+		-Blue (B) <--------> Metallic
+
+-UASSETS-
+-the following .uassets are included in the Geiger_Variations folder:
+	-glassCover.uasset
+	-greenLight.uasset
+	-meterLight1.uasset
+	-meterLight2.uasset
+	-meterLight3.uasset
+	-meterLight4.uasset
+
+
+
+
+
+
