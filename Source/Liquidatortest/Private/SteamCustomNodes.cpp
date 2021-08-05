@@ -23,7 +23,10 @@ bool USteamCustomNodes::BIsDlcInstalled(int32 AppID)
 		bool Out = SteamApps()->BIsDlcInstalled(AppID);
 		return Out;
 	}
-	return false;
+	//local test only
+	return AppID == 480;
+	//return false;
+
 }
 
 // Returns true if that app is installed (not necessarily owned)
