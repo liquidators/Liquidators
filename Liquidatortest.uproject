@@ -1,6 +1,6 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "4.26",
+	"EngineAssociation": "{C988EFBC-44AD-CD87-A7E2-18A842B8A08E}",
 	"Category": "",
 	"Description": "",
 	"Modules": [
@@ -38,8 +38,11 @@
 			]
 		},
 		{
-			"Name": "OnlineSubsystemSteam",
+			"Name": "MfMedia",
 			"Enabled": true
 		}
+	],
+	"TargetPlatforms": [
+		"XboxOne"
 	]
 }
